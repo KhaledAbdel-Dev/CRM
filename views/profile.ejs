@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <title>CRM</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1>Content Management Database</h1>
+        <h3>An organized business is a better business.</h2>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+          <h2> Customer Database </h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="header-label">Index</th>
+                <th class="header-label">Name</th>
+                <th class="header-label">Phone</th>
+                <th class="header-label">Company</th>
+                <th class="header-label">Registered</th>
+                <th class="header-label">Is Active</th>
+              </tr>
+              <tr class="tr-inputs">
+                <th>
+                  <div><input type="number"></div>
+                </th>
+                <th>
+                  <div><input type="string"></div>
+                </th>
+                <th>
+                  <div><input type="string"></div>
+                </th>
+                <th>
+                  <div><input type="string"></div>
+                </th>
+                <th>
+                  <div><input type="date"></div>
+                </th>
+                <th>
+                  <div><input type="boolean"></div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>Paige Bean</td>
+                <td>+1 (871) 458-2959</td>
+                <td>MOREGANIC</td>
+                <td>2018-12-27T11:28:50 -01:00</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Knox Holman</td>
+                <td>+1 (880) 497-2808</td>
+                <td>MAINELAND</td>
+                <td>2017-05-07T02:54:22 -01:00</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Brandy Colon</td>
+                <td>+1 (969) 513-2827</td>
+                <td>NEXGENE</td>
+                <td>2017-06-07T06:42:31 -00:00</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Suzette Austin</td>
+                <td>+1 (863) 445-3604</td>
+                <td>JETSILK</td>
+                <td>2015-10-24T11:10:41 -01:00</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Downs Cain</td>
+                <td>+1 (822) 574-2617</td>
+                <td>INSECTUS</td>
+                <td>2017-10-19T08:18:09 -01:00</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Michael Yang</td>
+                <td>+1 (875) 492-3905</td>
+                <td>DELPHIDE</td>
+                <td>2016-08-15T01:31:55 -01:00</td>
+                <td>false</td>
+              </tr>
+            </tbody>
+          </table>
+   <!-- <ul class="display">
+
+        <% for(var i = 0; i < times.length; i++) {%>
+            <tr class="display">
+                <td><%= times[i].type %></td>:
+                <td><%= times[i].item %></td>:
+                <td><%= times[i].cals %></td> CAL :
+                <td><%= times[i].pro %></td> g of protein:
+                <td><%= times[i].carbs %></td> g of carbs
+            </tr>
+        <% } %>
+    </ul>       
+          <form action="/times" method="POST">
+            <select name="type">
+                <option value="">Meal or Snack</option>
+                <option value="meal">Meal</option>
+                <option value="snack">Snack</option>
+            </select>
+            <input type="text" placeholder="What did you eat?" name="item">
+            <input type="text" placeholder="Total Calories" name="cals">
+            <input type="text" placeholder="Protein" name="pro">
+            <input type="text" placeholder="Carbs" name="carbs">
+            <button id="submit-button" type="submit">Submit</button>
+        </form>
+    </div>
+    <button id="delete-button">Clear Board</button>-->
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
